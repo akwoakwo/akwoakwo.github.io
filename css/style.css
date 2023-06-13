@@ -1,0 +1,36 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.h-font {
+    font-family: 'Merienda', cursive;
+}
+
+.availability-form {
+    margin-top: -100px;
+    z-index: 2;
+    position: relative;
+}
+
+.img-home {
+    width: 1500px;
+}
+
+@media screen and (max-width: 575px) {
+    .availability-form {
+        margin-top: 0px;
+        padding: 0 35px;
+    }
+}
+
+.h-line {
+    width: 150px;
+    margin: 0 auto;
+    height: 1.7px;
+}
+
+.pop:hover{
+    border-top-color: orangered !important;
+    transform: scale(1.03);
+    transition: all 0.3s;
+}
